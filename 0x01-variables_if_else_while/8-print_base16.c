@@ -5,20 +5,19 @@
  */
 int main(void)
 {
-	int a = 0;
+	char b = '0';
 
-	char b;
-
-	b = '0';
-	while (a < 10)
-	{
-		putchar(a + '0');
-		a++;
-	}
 	while (b <= 'f')
 	{
 		putchar(b);
-		b++;
+		if (b == '9')
+		{
+			b = 'a';
+		}
+		else
+		{
+			b++;
+		}
 	}
 	putchar('\n');
 	return (0);
