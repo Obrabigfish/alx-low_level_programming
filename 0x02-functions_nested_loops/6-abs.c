@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- * int _abs - Checks for absolute value
- * int - Data type integer
- * Return: 0 
+ *  _abs - Checks for absolute value
+ * @x - Data type integer
+ * Return: absolute value 
  */
 int _abs(int x)
 {
-	if (x < '0')
+	if (x >= 0)
 	{
-		return (-x);
+		return (x);
 	}
-	else
-	{
-	return (x);
-	}
+	return (-x);
 }
