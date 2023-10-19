@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * add - function namie
- * a - first number to be added
- * b - second number to be added
+ * @a: first number to be added
+ * @b: second number to be added
  * @result - takes in the values
  * Return: reult
  */
