@@ -65,7 +65,6 @@ int _strlen(char *s)
  *
  * @x: pointer to destination of string
  * @y: pointer to source string to copy from
- *
  * Return: pointer to dest
  */
 char *_strcpy(char *x, char *y)
