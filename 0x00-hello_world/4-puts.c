@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints a strung suing putd()
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
