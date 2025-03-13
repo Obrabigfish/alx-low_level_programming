@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 /*
- * main: Entry point of program
+ * main - Entry point of the program
  *
- * Description: This prints using write
+ * Description: This prints a message using the write() system call.
  *
- * Return 0 (Success)
+ * Return: 1 (Error status)
  */
-int main()
+int main(void)
 {
-	char n[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	fprintf(stderr, "%s\n", n);
+	char n[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+       	write(2, n, sizeof(n) - 1);
 	return (1);
 }
