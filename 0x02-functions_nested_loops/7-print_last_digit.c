@@ -2,7 +2,7 @@
 /**
  * print_last_digit - prints the last digit
  * @a: number to be checked
- * Return: Always 0
+ * Return: b
  */
 
 int print_last_digit(int a)
@@ -13,5 +13,5 @@ int print_last_digit(int a)
 	if (a  < 0)
 		b = -b;
 	_putchar(b + '0');
-	return (0);
+	return (b);
 }
