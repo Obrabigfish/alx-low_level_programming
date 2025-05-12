@@ -1,11 +1,17 @@
 #include <stdio.h>
-int main()
+/**
+ * main - print single digit numbers
+ * return: Always (0)
+ */
+
+int main(void)
 {
-	int i;
-	for(i = 0;i < 10; i++)
+	char a;
+
+	for (a = '0'; a <= '9'; a++)
 	{
-		printf("%d", i);
+		putchar(a);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
