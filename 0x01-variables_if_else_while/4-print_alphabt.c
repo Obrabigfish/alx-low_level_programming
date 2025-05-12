@@ -1,9 +1,28 @@
 #include <stdio.h>
+/**
+ * main - print except e and q
+ * Return: Always (0)
+ */
 
-int main()
+int main(void)
+/*{
+	char a;
+
+	for(a = 'a'; a <= 'z'; a++)
+	{
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
+}*/
 {
 	char a = 'a';
-	while ( a <= 'z')
+
+	while (a <= 'z')
 	{
 		if (a == 'q' || a == 'e')
 		{
@@ -13,6 +32,6 @@ int main()
 		putchar(a);
 		a++;
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
